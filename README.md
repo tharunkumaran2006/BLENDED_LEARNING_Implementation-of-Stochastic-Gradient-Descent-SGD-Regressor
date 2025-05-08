@@ -49,11 +49,10 @@ To write a program to implement Stochastic Gradient Descent (SGD) Regressor for 
     - The program finishes by displaying the evaluation metrics, model coefficients, and a visual representation of the predictions.
 
 ## Program:
+### Program to implement SGD Regressor for linear regression.
+### Developed by: THARUN V K
+### RegisterNumber: 212223230231
 ```python
-/*
-Program to implement SGD Regressor for linear regression.
-Developed by: THARUN V K
-RegisterNumber: 212223230231
 # Importing necessary libraries
 import pandas as pd
 import numpy as np
@@ -119,7 +118,6 @@ plt.xlabel("Actual Prices")
 plt.ylabel("Predicted Prices using SGD Regressor")
 plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red')  # Perfect prediction line
 plt.show()
-*/
 ```
 
 ## Output:
